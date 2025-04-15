@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Inter", sans-serif;
+}
+
+body{
+    background-color: #508FE0;
+}
+
+.calculator{
+    background-color: #D9D9D9;
+    display: flexbox;
+    justify-content: center;
+    width: 400px;
+    height: 523px;
+    border-radius: 30px;
+    margin: 40px auto;
+    padding-top: 20px;
+    
+}
+
+.visor input{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    border: none;
+    border-radius: 10px;
+    margin: auto; 
+    height: 140px;
+    width: 90%;
+    
+}
+
+.btn-operacoes-superiores{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    margin-top: 15px;
+
+}
+
+.btn-operacoes{
+    display: flexbox;
+    align-items: center;
+    font-weight: 700;
+    color: white;
+    background-color: #353333;
+    width: 68px;
+    height: 30px;
+    border: none;
+    border-radius: 60px;  
+    box-shadow: #222121;  
+}
+
+.btn-operacoes:hover{
+    background-color: #222121;
+}
+
+.on{
+    background-color: #62AB92;
+}
+
+.on:hover{
+    background-color: #55b895;
+}
+
+.btn-numeros{
+    display: grid;
+    grid-auto-flow: row;
+    grid-template-columns: 60px 60px 60px 60px 60px;
+    grid-template-rows: 60px 60px;
+    justify-content: center;
+    gap: 15px 15px;
+    padding-top: 10px;
+
+}
+
+.btn-numero{
+    width: 63px;
+    height: 65px;
+    background-color: #1E1E1E;
+    color: white;
+    border: none;
+    border-radius: 5px;   
+    font-size: 30px;
+    font-weight: 800;
+    margin: 0;
+}
+
+.btn-numero:hover{
+    background-color: #EEEEEE;
+    color:#1E1E1E;
+}
+
+.limpar{
+    background-color: #B73636;
+    color: white;
+    font-weight: 600;
+}
+
+.limpar:hover{
+    background-color: #dd3838;
+
+}
+
+.lateral{
+    background-color: #EEEEEE;
+    color: black;
+}
+
+.lateral:hover{
+    background-color: #1E1E1E;
+    color:white;
+}
